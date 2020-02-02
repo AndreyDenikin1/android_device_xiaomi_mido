@@ -1,4 +1,4 @@
-<p>update all packages:</p>
+# Update all packages
 
 <pre><code>sudo apt update && sudo apt upgrade -y</code></pre>
 
