@@ -32,6 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES := ro.treble.enabled=true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8953
 
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := omni_mido
