@@ -110,6 +110,4 @@ BOARD_ROOT_EXTRA_FOLDERS := bluetooth dsp firmware persist
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # OTA
-
 TARGET_OTA_ASSERT_DEVICE := mido
-
