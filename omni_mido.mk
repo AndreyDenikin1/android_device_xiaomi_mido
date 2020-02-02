@@ -30,8 +30,6 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := false
 PRODUCT_PROPERTY_OVERRIDES := ro.treble.enabled=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.version.security_patch=2099-12-31 \
-	ro.vendor.build.security_patch=2099-12-31  \
     ro.hardware.keystore=msm8953
 
 # Device identifier. This must come after all inclusions
@@ -40,10 +38,6 @@ PRODUCT_NAME := omni_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys"
-    ro.vendor.build.security_patch=2099-12-31
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys"
